@@ -16,7 +16,7 @@ const Adventure = () => {
                 <h2>$699</h2>
                 <h3>Başlayan qiymətlərlə</h3>
                
-                <a href="">Səyahətə başla</a>
+                <a href="#">Səyahətə başla</a>
                 </div>
             </div>
             <div className="second-card">

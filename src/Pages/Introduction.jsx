@@ -1,4 +1,4 @@
-import MovingComponent from "react-moving-text";
+
 import React, { useEffect } from "react";
 import AOS from "aos";
 import video from "../videos/video2.webm";
@@ -37,8 +37,8 @@ const Introduction = () => {
 
               </div>
                <div data-aos={"fade-right"} className="intro-btns">
-                <a href="">Macəra</a>
-                <a href="">Turlar</a>
+                <a href="#">Macəra</a>
+                <a href="#">Turlar</a>
                </div>
             </div>
                 

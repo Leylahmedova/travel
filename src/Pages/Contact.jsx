@@ -38,10 +38,10 @@ const Contact = () => {
             <input   ref={form} type="text" pattern='[a-z]*' min={5} max={14} name='name' placeholder='Ad'/>
             <BsFillPersonFill className='inputIcon'/></div>
             <div>
-            <input required ref={form}   type="email" name="email" id="" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder='Email' minlength="3" maxlength="64"/>
+            <input  ref={form}   type="email" name="email" id="" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder='Email' minlength="3" maxlength="64"/>
             <BsTelephoneFill className='inputIcon'/></div>
             <div>
-            <input required ref={form}   type="number" placeholder='Nömrə' pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}'/>
+            <input  ref={form}   type="number" placeholder='Nömrə' pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}'/>
             <FaEnvelope className='inputIcon'/>
             </div>
             <div>

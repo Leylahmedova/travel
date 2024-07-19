@@ -25,7 +25,7 @@ const AboutMain = () => {
             individual və qrup turların təşkili ilə məşğul olan Azərbaycanın ən
             tanınmış turizm şirkətlərindən biridir.
           </p>
-          <a href="">Macəraya qoşul</a>
+          <a href="#">Macəraya qoşul</a>
         </div>
         <div className="earth-gif" data-aos={"fade-up"}>
           <img

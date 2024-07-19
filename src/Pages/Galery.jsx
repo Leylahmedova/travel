@@ -1,11 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import Kecid from "../Components/Kecid";
-
-
 import "swiper/css/navigation";
 import "swiper/css";
-import { BsSuitHeartFill} from "react-icons/bs";
 
 const Galery = () => {
 

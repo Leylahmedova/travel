@@ -25,7 +25,7 @@ const ComingSoon = () => {
     <>
       <div className="comingSoon">
         <h1>COMING SOON</h1>
-        <a href="">Bizimlə əlaqə saxlayın</a>
+        <a href="#">Bizimlə əlaqə saxlayın</a>
         <div className="timer">
           <div className="box">
             <p id="day">{days < 10 ? "0" + days : days}</p>

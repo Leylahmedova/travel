@@ -2,14 +2,10 @@ import './App.css';
 // komponents start
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar';
-import Introduction from './Pages/Introduction';
-import Goto from './Pages/Goto';
 import NotFoundPage from './Pages/NotFoundPage';
 import ComingSoon from './Pages/ComingSoon';
 import AboutUs from "./Pages/AboutUs"
 import Footer from './Pages/Footer'
-import Adventure from './Pages/Adventure';
-
 import Contact from './Pages/Contact';
 import Galery from './Pages/Galery';
 import Faq from './Pages/Faq';
@@ -24,7 +20,6 @@ import ScrollButton from './Pages/ScrollTop';
 //komponents end
 function App() {
   let [loading, setLoading] = useState(false);
-  let [color, setColor] = useState("#ffffff");
   useEffect(()=>{
       setLoading(true)
       setTimeout(() => {
